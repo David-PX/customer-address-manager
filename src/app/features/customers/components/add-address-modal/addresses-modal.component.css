@@ -1,0 +1,13 @@
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .form-check-input:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+  }

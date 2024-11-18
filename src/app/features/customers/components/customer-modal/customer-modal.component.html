@@ -1,0 +1,45 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{ mode === 'edit' ? 'Editar Cliente' : 'Agregar Cliente' }}</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="close()"></button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre</label>
+      <input
+        type="text"
+        id="name"
+        class="form-control"
+        formControlName="name"
+      />
+      <div *ngIf="customerForm.get('name')?.invalid && customerForm.get('name')?.touched" class="text-danger">
+        El nombre es requerido.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo Electrónico</label>
+      <input
+        type="email"
+        id="email"
+        class="form-control"
+        formControlName="email"
+      />
+      <div *ngIf="customerForm.get('email')?.invalid && customerForm.get('email')?.touched" class="text-danger">
+        Ingresa un correo electrónico válido.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="phone" class="form-label">Teléfono</label>
+      <input
+        type="text"
+        id="phone"
+        class="form-control"
+        formControlName="phone"
+      />
+      <div *ngIf="customerForm.get('phone')?.invalid && customerForm.get('phone')?.touched" class="text-danger">
+        El teléfono es requerido.
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="customerForm.invalid">Guardar</button>
+  </form>
+</div>

@@ -1,0 +1,107 @@
+body {
+    background-color: var(--bs-body-bg-secondary);
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+}
+
+.customer-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.customer-card p {
+    margin-bottom: 10px;
+}
+
+.customer-profile {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.customer-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.customer-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #7C87E4;
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f3f5; /* Efecto hover en filas */
+}
+
+.table td, .table th {
+    padding: 12px 15px; /* Más espacio entre celdas */
+}
+
+.btn {
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning {
+    background-color: #FFA500;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #E59400;
+}
+
+.btn-danger {
+    background-color: #FF6B6B;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #E45555;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn.color-primary {
+    background-color: #4C68E0; /* Azul distintivo */
+    color: #ffffff;
+}
+
+.btn.color-primary:hover {
+    background-color: #3A53B0;
+}
+
+.form-check-input:checked {
+    background-color: #7C87E4; /* Color verde para indicar activado */
+    border-color: #7C87E4;
+}
+  
+.form-check-input {
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}

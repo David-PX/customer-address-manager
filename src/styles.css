@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-primary {
+    background: #7C87E4;
+    border-color: #7C87E4;
+    color: #fff;
+}
+
+.color-primary:hover {
+    background: #4d5ac7;
+    border-color: #4d5ac7;
+    color: #fff;
+}
+
+.text-color-primary {
+    color: #7C87E4;
+}

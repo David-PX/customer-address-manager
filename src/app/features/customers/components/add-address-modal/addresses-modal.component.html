@@ -1,0 +1,75 @@
+<div class="modal-header">
+  <h5 class="modal-title">
+    {{ mode === 'add' ? 'Add New Address' : 'Edit Address' }}
+  </h5>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="activeModal.dismiss('Cross click')"
+  ></button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="addressForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="type" class="form-label">Name</label>
+      <input
+        type="text"
+        id="name"
+        class="form-control"
+        formControlName="name"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="street" class="form-label">Street</label>
+      <input
+        type="text"
+        id="street"
+        class="form-control"
+        formControlName="street"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="city" class="form-label">City</label>
+      <input
+        type="text"
+        id="city"
+        class="form-control"
+        formControlName="city"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="state" class="form-label">State</label>
+      <input
+        type="text"
+        id="state"
+        class="form-control"
+        formControlName="state"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="country" class="form-label">Country</label>
+      <input
+        type="text"
+        id="country"
+        class="form-control"
+        formControlName="country"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="isPrimary" class="form-check-label">Set as Primary</label>
+      <input
+        type="checkbox"
+        id="isPrimary"
+        class="form-check-input"
+        formControlName="isPrimary"
+      />
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+  </form>
+</div>

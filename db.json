@@ -1,0 +1,70 @@
+{
+  "customers": [
+    {
+      "id": "9081",
+      "name": "Crisneiby e",
+      "email": "Crisneibymatos02@gmail.com",
+      "phone": "82986623999",
+      "addresses": [
+        {
+          "name": "Sector Carlos Alvares Calle 24 de abril.",
+          "street": "#63",
+          "city": "Santo Domingo",
+          "state": "Santo Domingo Norte",
+          "country": "Dominican Republic",
+          "isPrimary": true,
+          "id": 1731905026284
+        }
+      ]
+    },
+    {
+      "id": "362d",
+      "name": "David Solano",
+      "email": "david0nike@gmail.com",
+      "phone": "8492202181",
+      "addresses": []
+    },
+    {
+      "id": "0c71",
+      "name": "David Solano",
+      "email": "david0nike@gmail.com",
+      "phone": "8492202181",
+      "addresses": []
+    },
+    {
+      "id": "e438",
+      "name": "David Solano",
+      "email": "david0nike@gmail.com",
+      "phone": "8492202181",
+      "addresses": []
+    },
+    {
+      "id": "c0a9",
+      "name": "David Solano",
+      "email": "david0nike@gmail.com",
+      "phone": "8492202181",
+      "addresses": []
+    },
+    {
+      "id": "cbdc",
+      "name": "David Solano",
+      "email": "david0nike@gmail.com",
+      "phone": "8492202181",
+      "addresses": []
+    },
+    {
+      "id": "06d7",
+      "name": "David Solano",
+      "email": "david0nike@gmail.com",
+      "phone": "8492202181",
+      "addresses": []
+    },
+    {
+      "id": "0928",
+      "name": "David Solano",
+      "email": "david0nike@gmail.com",
+      "phone": "8492202181",
+      "addresses": []
+    }
+  ]
+}
