@@ -89,7 +89,7 @@ export class CustomersComponent implements OnInit {
 
   getPrimaryAddress(customer: Customer): string {
     const primary = customer.addresses.find((address) => address.isPrimary);
-    return primary ? `${primary.name}: ${primary.street}, ${primary.city}` : 'No definida';
+    return primary ? `${primary.name}: ${primary.street}, ${primary.city}` : 'N/A';
   }
 
   openAddCustomerModal() {

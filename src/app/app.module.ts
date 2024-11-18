@@ -20,6 +20,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     HttpClientModule,
     ToastrModule.forRoot(),
+    NavbarComponent,
     NgbModule
   ],
   providers: [],

@@ -7,8 +7,8 @@
         <h2>{{customer?.name ?? "Customer"}} <span class="text-color-primary"> Addresses</span></h2>
       </div>
       <div class="customer-card text-center">
-        <p><strong>Correo:</strong> juan.perez.com</p>
-        <p><strong>Teléfono:</strong> +123456789</p>
+        <p><strong>Correo:</strong>{{customer?.email ?? "Email"}}</p>
+        <p><strong>Teléfono:</strong> {{customer?.phone ?? "Phone"}}</p>
       </div>
       <div class="table-container">
         <table class="table table-hover align-middle">

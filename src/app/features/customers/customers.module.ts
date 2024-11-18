@@ -7,6 +7,7 @@ import { CustomersComponent } from './pages/customers/customers.component';
 import { CustomerModalComponent } from './components/customer-modal/customer-modal.component';
 import { CustomerProfileComponent } from './pages/customer-profile/customer-profile.component';
 import { AddressesModalComponent } from './components/add-address-modal/addresses-modal.component';
+import { NavbarComponent } from 'src/app/shared/components/navbar/navbar.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { AddressesModalComponent } from './components/add-address-modal/addresse
     CommonModule,
     CustomersRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    NavbarComponent
   ]
 })
 export class CustomersModule { }
