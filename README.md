@@ -1,6 +1,3 @@
-Here’s the README content in proper Markdown format:
-
-```markdown
 # **Customer Address Manager**
 
 This project is a **Customer Address Manager** built with **Angular**. It allows users to manage customers and their addresses, featuring functionalities such as adding, editing, deleting customers and addresses, searching, and pagination.
@@ -14,8 +11,6 @@ This project is a **Customer Address Manager** built with **Angular**. It allows
 - [Running the Project](#running-the-project)
 - [Using JSON Server](#using-json-server)
 - [Testing](#testing)
-- [Project Structure](#project-structure)
-- [Technical Stack](#technical-stack)
 - [License](#license)
 
 ---
@@ -152,13 +147,3 @@ ng test
 - **Mock API**: JSON Server
 - **Styling**: Bootstrap 5
 - **Testing**: Jasmine & Karma
-
----
-
-## **License**
-This project is licensed under the [MIT License](LICENSE).
-```
-
----
-
-You can copy and paste this directly into your `README.md` file. Let me know if there’s anything else you’d like to include! 🚀
